@@ -1,0 +1,307 @@
+    1  pwd
+    2  ls
+    3  ls -la
+    4  ls -l
+    5  ls -la
+    6  cd cmd
+    7  mkdir group_27
+    8  ls -la
+    9  cd group_27
+   10  ls -l
+   11  cd cmd
+   12  mkdir item1
+   13  cd item1
+   14  cd item1
+   15  touch j_file.json
+   16  ls -la
+   17  vim j_file.json
+   18  ls -la
+   19  cat j_file.json
+   20  vim j_file.json
+   21  pwd
+   22  ls -la
+   23  vim j_file.json
+   24  pwd
+   25  ls -la
+   26  ls
+   27  cd ..
+   28  cd group_27
+   29  touch j_item.json
+   30  ls
+   31  vim j_item.json
+   32  ls -la
+   33  cut j_item.json
+   34  cat j_item.json
+   35  ls -la
+   36  cd item1/
+   37  cd ..
+   38  ls -la
+   39  ls -la
+   40  cp j_item.json item1/j_file.json
+   41  cd item1/
+   42  ls -la
+   43  cd ..
+   44  ls -la
+   45  mv item1/J_item.json
+   46  ls -ls
+   47  ls -ls
+   48  ls -la
+   49  mv j_item.json item1/j_item2.json
+   50  cd item1/
+   51  ls -la
+   52  rm j_item2.json
+   53  ls -la
+   54  cd ..
+   55  ls -la
+   56  touch j_son.json
+   57  ls -la
+   58  rm -rf item1
+   59  ls -la
+   60  mkdir item1
+   61  ls -la
+   62  mkdir nn_1 nn_2 nn_3
+   63  ls -la
+   64  cp j_son.json nn_1/j_son.json
+   65  ls -la
+   66  cd nn_1
+   67  ls -la
+   68  cd ..
+   69  ls -la
+   70  date
+   71  # комментарий
+   72  echo
+   73  echo $shell
+   74  echo $SHELL
+   75  pwd
+   76  ls
+   77  cd /c/SHOORISCHE/QA/HomeWork
+   78  ls -la
+   79  cd Lesson\ 1\ GitBash/
+   80  ls -la
+   81  pwd
+   82  ls ..
+   83  pwd
+   84  ls .
+   85  ls /HomeWork
+   86  ls ..
+   87  pwd
+   88  pwd
+   89  mkdir folder1
+   90  cd folder1
+   91  pwd
+   92  mkdir test1 test2 test3
+   93  cd test1
+   94  touch one.txt two.txt three.txt file1.json file.json
+   95  pwd
+   96  mkdir nn1 nn2 nn3
+   97  ls
+   98  ls -la
+   99  ls -l
+  100  ls -al
+  101  pwd
+  102  vim one.txt
+  103  #comment
+  104  cd .. 
+  105  pwd
+  106  ls
+  107  cd test1
+  108  mv file.json file1.json nn1/
+  109  cp one.txt two.txt nn2/
+  110  find . -name one
+  111  find test1/ -name one.txt
+  112  find . -name one.txt
+  113  grep Alexander one.txt
+  114  grep -i aleXander one.txt
+  115  grep aleXander one.txt
+  116  grep -R Alexander .
+  117  grep -h -R Alexander .
+  118  more one.txt
+  119  heaf one.txt
+  120  head one.txt 
+  121  tail one.txt 
+  122  cat one.txt 
+  123  nl one.txt 
+  124  less one.txt 
+  125  head -n2 one.txt 
+  126  tail -n2 one.txt 
+  127  less one.txt
+  128  date
+  129  less one.txt 
+  130  curl [200~http://162.55.220.72:5005/terminal-hw-request~
+  131  curl http://162.55.220.72:5005/terminal-hw-request
+  132  curl http://162.55.220.72:5005/get_method?name=(AlexanderF)&age=(32)
+  133  curl http://162.55.220.72:5005/terminal-hw-request
+  134  curl http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)
+  135  curl http://162.55.220.72:5005/get_method?name=AlexanderF&age=32
+  136  curl http://162.55.220.72:5005/get_method?name=AlexanderF&age=32
+  137  curl "http://162.55.220.72:5005/get_method?name=AlexanderF&age=32"
+  138  pwd ; whoami
+  139  getconf ARG_MAX
+  140  pwd ; ls -la
+  141  touch myscript
+  142  ls -ls
+  143  vim myscript 
+  144  ls -la
+  145  chmod +x ./myscript
+  146  ./myscript
+  147  pwd
+  148  ls -la
+  149  cd script1/
+  150  ls -ls
+  151  rmdir -r test1 test2 test3
+  152  rm -r test1 test2 test3
+  153  ls -la
+  154  cd ..
+  155  vim script1/
+  156  touch myscript
+  157  vim myscript 
+  158  chmod +x ./myscript
+  159  fds
+  160  ./myscript 
+  161  less +F one.txt 
+  162  pwd
+  163  mkdir group_27_1
+  164  ls
+  165  cd group_27_1/
+  166  mkdir f_1 f_2 f_3
+  167  touch tt.txt
+  168  ls
+  169  ls -a
+  170  ls -l
+  171  ls -la
+  172  ls -l -a -m2
+  173  cd ..
+  174  ls -R
+  175  ls -R -la
+  176  ls -Rla
+  177  cd group_27_1/
+  178  ls
+  179  cat tt.txt
+  180  cat tt.txt 
+  181  cat tt.txt
+  182  cat > tt.txt 
+  183  cat > tt2.txt
+  184  cat > ttn1.txt
+  185  cat > ttn2,txt
+  186  cat ttn1.txt ttn2.txt
+  187  cat > ttn2.txt
+  188  cat -b ttn2.txt 
+  189  cat -n ttn2.txt
+  190  cat ttn1.txt ttn2.txt
+  191  cat >> ttn2.txt
+  192  cat -n ttn2.txt
+  193  history
+  194  history > hist.txt
+  195  cat ttn1.txt
+  196  cat ttn2.txt
+  197  cat >> ttn2.txt
+  198  cat ttn2.txt
+  199  cat -s ttn2.txt
+  200  cat -b ttn2.txt
+  201  can -n ttn2.txt
+  202  cat -n ttn2.txt
+  203  cat ttn2.txt | less
+  204  cat ttn1.txt >> ttn3.txt
+  205  ls
+  206  cat ttn3.txt
+  207  less ttn2.txt
+  208  cat ttn2.txt | sort
+  209  cat ttn1.txt
+  210  cat ttn3.txt
+  211  cat >> ttn3.txt
+  212  cat ttn4.txt
+  213  cat > ttn4.txt
+  214  cat ttn1.txt ttn2.txt | sort > ttn4.txt
+  215  cat ttn4.txt
+  216  ls -la
+  217  cd f_1
+  218  cat > xx.txt
+  219  cat > yy.txt
+  220  cd ..
+  221  cat > f_2/rrr.txt
+  222  cd f_3
+  223  cat > ../f_2/ooo.txt
+  224  cd ..
+  225  ls
+  226  ls -ls
+  227  find . -name ooo*
+  228  pwd
+  229  ls -ls
+  230  grep 2 *
+  231  grep -r 2 *
+  232  grep ooo *
+  233  grep ooo group_27_1
+  234  grep -r ooo group_27_1
+  235  grep ooo 
+  236  grep ooo f_2
+  237  grep ooo f_2/
+  238  grep ooo f_2/
+  239  pwd
+  240  grep Anna f_3/
+  241  grep tty f_3/
+  242  grep tty* f_3/
+  243  find . -name * | grep -ir ooo
+  244  find . -name * | grep -ir ooo *
+  245  head ttn1.txt
+  246  head history.txt 
+  247  head hist.txt 
+  248  head -n3 hist.txt 
+  249  tail hist.txt 
+  250  tail -n3 hist.txt 
+  251  tail -f ttn1.txt 
+  252  tail -f nn/file.txt
+  253  pwd
+  254  cd nn1
+  255  tail -f test1/nn/file.txt
+  256  pwd
+  257  touch file.txt
+  258  touch file2.txt
+  259  ls
+  260  touch p1/text1.txt p1/text2.txt
+  261  cat > p1/text1.txt
+  262  cat p1/text1.txt
+  263  tail -n p1/text1.txt
+  264  tail -F p1/text1.txt
+  265  ls
+  266  cd test1
+  267  less +F one.txt
+  268  tail -F one.txt
+  269  pwd
+  270  ls
+  271  mkdir | cd newfolder
+  272  mkdir newfolder | cd newfolder
+  273  mkdir newfolder
+  274  cd newfolder/
+  275  mkdir pap1 pap2 pap3
+  276  ls
+  277  touch file1.txt file2.json
+  278  ды
+  279  ls
+  280  vim file1.txt
+  281  cat file1.txt
+  282  head -h2 one.txt
+  283  head -2 one.txt
+  284  head -n2 one.txt
+  285  ls
+  286  head -n2 file1.txt
+  287  head file1.txt 
+  288  cat > file1.txt
+  289  tail file1.txt
+  290  grep ooo file1.txt
+  291  grep ooo *
+  292  grep -i ooo *
+  293  grep -R ooo *
+  294  grep -Ri ooo *
+  295  git clone https://github.com/shoorische/QACourse.git
+  296  ls -ls
+  297  cd QACourse/
+  298  open .
+  299  cd ..
+  300  cd QACourse/
+  301  git status
+  302  vim user.txt
+  303  ls -ls
+  304  git status
+  305  git add user.txt 
+  306  git status
+  307  history > hist.txt
