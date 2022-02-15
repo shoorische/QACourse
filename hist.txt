@@ -305,3 +305,14 @@
   305  git add user.txt 
   306  git status
   307  history > hist.txt
+  308  git status
+  309  git add hist.txt 
+  310  git commit -m "add 2 files"
+  311  git push
+  312  git config --global user.name "shoorische"
+  313  git config --global user.email "shoorische@gmail.com"
+  314  git config --global user.email
+  315  git commit -m "add 2 files"
+  316  git push
+  317  git push
+  318  history > hist.txt
